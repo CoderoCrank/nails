@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.paznokiec"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ikona"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.paznokiec.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="SecondActivity" android:label="@string/app_name"></activity>
+        <activity android:name="ThirdActivity" android:label="@string/app_name"></activity>
+        <activity android:name="Diagnoza" android:label="@string/app_name"></activity>
+        <activity android:name="Koniec" android:label="@string/app_name"></activity>
+        <activity android:name="BialyActivity" android:label="@string/app_name"></activity>
+        <activity android:name="SzaroniebieskiActivity" android:label="@string/app_name"></activity>
+        <activity android:name="BrazowyActivity" android:label="@string/app_name"></activity>
+        <activity android:name="ZielonyActivity" android:label="@string/app_name"></activity>
+        <activity android:name="CzarnyActivity" android:label="@string/app_name"></activity>
+        <activity android:name="Rozdwajanie" android:label="@string/app_name"></activity>
+        <activity android:name="Zanikanie" android:label="@string/app_name"></activity>
+        <activity android:name="Lamliwosc" android:label="@string/app_name"></activity>
+        <activity android:name="Pogrubienie" android:label="@string/app_name"></activity>
+        <activity android:name="Wglebienie" android:label="@string/app_name"></activity>
+        <activity android:name="Matowienie" android:label="@string/app_name"></activity>
+        <activity android:name="Bruzdy" android:label="@string/app_name"></activity>
+        <activity android:name="Lyzkowaty" android:label="@string/app_name"></activity>
+        <activity android:name="Uwypuklenie" android:label="@string/app_name"></activity>
+        <activity android:name="Szponowaty" android:label="@string/app_name"></activity>
+        <activity android:name="Rulonik" android:label="@string/app_name"></activity>
+        <activity android:name="Grzybica" android:label="@string/app_name"></activity>
+        <activity android:name="Drozdzyca" android:label="@string/app_name"></activity>
+        <activity android:name="Zanokcica" android:label="@string/app_name"></activity>
+        <activity android:name="Luszczyca" android:label="@string/app_name"></activity>
+        <activity android:name="Onychioza" android:label="@string/app_name"></activity>
+    </application>
+
+</manifest>
